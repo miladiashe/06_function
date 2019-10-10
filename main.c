@@ -21,9 +21,19 @@ int get_max( int a, int b )
 	else return(b);
 }
 
-int main(int argc, char *argv[]) {
-	
+int main(int argc, char *argv[]) 
+{
+	int a, b;
+	int output1;
+	a = 2;
+	b = 5;	
 
+	output1 = sumtwo(a,b);
+	printf("sumtwo = %d\n", output1);
+	
+	printf("square = %d\n", square(b));
+	
+	printf("%d is bigger\n", get_max(a,b));
 	
 	return 0;
 }
